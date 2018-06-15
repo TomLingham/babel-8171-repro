@@ -1,0 +1,16 @@
+{
+  "name": "babel-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -Dd lib src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Lingham",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51"
+  }
+}
